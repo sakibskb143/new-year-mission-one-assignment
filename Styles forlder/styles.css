@@ -1,12 +1,97 @@
 /* common Styles  */
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+
+    max-width: 1600px;
+    background: #FFF;
+    /* height: 7335px; */
+}
 
 
+body>main,
+header {
+
+    /* margin-left: 140px; */
+    padding-top: 50px;
+    padding-left: 140px;
+    padding-right: 140px;
+    /* align-items: center; */
+
+
+}
 
 /* Header section css */
+.banner-section {
 
+    background-image: ;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+
+
+}
+
+.banner-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 177px;
+    padding-left: 530px;
+    padding-right: 530px;
+
+
+}
+
+.banner-info {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    width: 632px;
+    padding-bottom: 177px;
+    padding-left: 344px;
+    padding-right: 344px;
+
+}
 
 
 
 
 /* Main section css */
+
+/*                ad section      */
+.ad-section {
+    display: block;
+}
+
+.ad-section {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.ad-info {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.ad-description {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
 /* footer section css */
