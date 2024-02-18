@@ -435,8 +435,113 @@ body>main {
 
 
 /* footer section css */
-.footer-section {
-    width: 1600px;
+footer {
+  
     height: 609px;
     background: #070211;
+    padding: 120px 140px;
+    display: block;
+
+}
+
+.footer-section {
+    display: block;
+    justify-content:space-evenly;
+    align-items: center;
+
+
+}
+
+.footer-address p {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: left;
+}
+
+.footer-address-section {
+    /* width: 1420px; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Inter;
+    font-size: 24px;
+    /* font-style: normal; */
+    font-weight: 500;
+    line-height: 40px;
+    gap:800px
+   
+}
+
+.footer-contact p {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+.footer-contact div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section hr {
+    background: rgba(255, 255, 255, 0.15);
+    height: 1px;
+}
+
+.hyline {
+    display: block;
+    justify-content: space-around;
+    height: 1px;
+    color: rgba(22, 20, 20, 0.15);
+
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 160px;
+   
+
+
+}
+
+.footer-icon div {
+
+    display: block;
+}
+
+.footer-icon img {
+    margin-right: 24px;
+}
+
+.copy-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    gap: 800px;
+}
+
+.copy-right>p {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.copy-right>button {
+    background-color: #070211;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-left: 120px;
+
 }
