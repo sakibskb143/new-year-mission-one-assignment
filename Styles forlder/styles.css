@@ -235,7 +235,6 @@ body>main {
     justify-content: space-around;
     background: #FFF;
     gap:20px;
-    height: 7335px;
     margin-bottom: 120px;
 
 
@@ -305,6 +304,7 @@ display: block;
     width: 276px;
     margin-bottom: 43px;
     display: block;
+    text-align:left;
 }
 .bonus-column3>img{
     width: 140px;
@@ -313,6 +313,59 @@ display: block;
     
 }
 
+/* fasion section style */
+.fasion-container{
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 120px;
+}
+.fasion-title{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.fasion-info{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+.fasion-description{
+  
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    display:block ;
+    margin-bottom: 48px;
+    
+    
+}
 
+.fasion-image-section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:24px;
+    
+}
 
+.fasion-image{
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.fasion-image img{
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.fasion-image:hover img{
+    transform: scale(1.22);
+}
 /* footer section css */
